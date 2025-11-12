@@ -22,7 +22,7 @@ After completing the assignment, answer the following reflection questions:
 ## Reflection Questions
 
 1. What are some things that you learned through this assignment? Think about the concepts of backtracking, constraint satisfaction, and search algorithms. Were there any particular challenges you faced while implementing the Board class methods or the DFS/BFS functions? How did you overcome them?
-
+I learned how a depth first and breadth first search algorithm works. In AP CSA, I learned how recursive functions work and I understood them, but I had never seen like an actual application of using them. To do DFS, i had to use recursion and it was interesting to see how it works and backtracks. The challenge I faced while implementing the methods was the BFS methods, I didnt really understand how it would work within the sudoku problem. I overcame them by asking chatgpt and my friends how you would do the method. To me, DFS made much more sense naturally because its similar to how some poeple play sudoku. 
 
 
 2. How can you apply what you learned in this assignment to future programs or projects? Consider other types of problems that involve searching through possibilities, making decisions, and backtracking when those decisions don't work out. Can you think of real-world scenarios where DFS or BFS might be useful? What about other constraint satisfaction problems?
