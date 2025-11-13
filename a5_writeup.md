@@ -26,7 +26,8 @@ I learned how a depth first and breadth first search algorithm works. In AP CSA,
 
 
 2. How can you apply what you learned in this assignment to future programs or projects? Consider other types of problems that involve searching through possibilities, making decisions, and backtracking when those decisions don't work out. Can you think of real-world scenarios where DFS or BFS might be useful? What about other constraint satisfaction problems?
-
+Now that I have learned how to use DFS and BFS I can know when to implement a method that can backtrack. These can be used in many other algorithms in other games or puzzles. Some real world scenarios where these types of algorithms could be useful (especially BFS) is finding the shortest path within something. For example, finding the shortest series of moves to solve a rubiks cube. For DFS you could solve to find a path, but it might not be the most efficient one. 
 
 
 3. Explain how the Stack and Queue classes work and why they are important for DFS and BFS algorithms. Describe the difference between LIFO (Last In First Out) and FIFO (First In First Out) data structures. How does using a Stack versus a Queue change the way the search algorithm explores possible solutions? Why is one data structure better suited for depth-first search and the other for breadth-first search?
+Stack is a type of data structure that is LIFO, like a stack of books. A queue is a data structure that is like a line, that follows the FIFO rule. The difference in BFS and DFS is the order they explore/find each state. In DFS you go deep into one path and you backtrack when you fail, a stack works well here because you can push each time you go deeper, and when you fail, you pop to backtrack.  In BFS you go level by level and you dont backtrack, a queue is good for this because the earliest states get expanded first and it explores everything level by level before going deeper. 
